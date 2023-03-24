@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+/*.Background {
+  width: 1479px;
+  height: 750px;
+  position: absolute;
+  margin-left: -250px;
+  color: black;
+  text-align: center;
+}*/
+
+/*title-container-2{
+  width: 100%;
+  height: 100%;
+  left:-100%;
+  position: absolute;
+  z-index: -3;
+  background-color: #7bcfbf;
+}*/
+
+.Register-Img-container img{
+  position:absolute;
+  z-index: -1;
+  left: -100%;
+  margin-top:48%;
+  width: 100%;
+  height: 50%;
+}
+.Login-Imagen-container img{
+  top:-0%;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.Logo-container-register img{
+  top: 4%;
+  left: -65%;
+  width: 15%;
+  height: 17%;
+  position: absolute;
+  z-index: 1;
+}
+
+.User-img-container{
+  position: absolute;
+  top:-20%;
+  left: 32%;
+  height: 70%;
+  width: 45%;
+}
+
+.Login-container {
+  width: 50%;
+  height: 100%;
+  top:0%;
+  left:50%;
+  position: absolute;
+  background-color: #ffffff;
+}
+.Register-container{
+  width: 50%;
+  height: 100%;
+  top:0%;
+  left:50%;
+  position: absolute;
+  background-color: #c6f2ff;
+}
+
+.LoginForm-container{
+  width: 50%;
+  height: 57%;
+  position: absolute;
+  top:24%;
+  left:26%;
+  background-color: #8adb1f;
+}
+
+.RegisterForm-container{
+  width: 60%;
+  height: 73%;
+  position: absolute;
+  top:13%;
+  left:21%;
+  background-color: #ffffff;
+}
+
+/*.title-container-1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  margin-left: 30px;
+  margin-top: 25px;
+  font-family: "Bebas Neue", cursive;     
+}*/
+
+.Logo-container img{
+  top: 7%;
+  left: -70%;
+  width: 18%;
+  height: 20%;
+  position: absolute;
+  z-index: 1;
+}
+
+.Title_R {
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: 'Cambay', sans-serif;
+  margin-bottom: -15px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+#User {
+  position: relative;
+  left: -115px;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#name-user{
+  background-color: #d6d6d6;
+  border: 0;
+  width: 70%;
+  position: relative;
+  left: 14%;
+}
+
+#surnames-user{
+  background-color: #d6d6d6;
+  border: 0;
+  width: 70%;
+  position: relative;
+  left: 14%;
+}
+
+#emailConfirm1{
+  background-color: #d6d6d6;
+  border: 0;
+  width: 70%;
+  position: relative;
+  left: 14%;
+}
+
+#passwordConfirm1{
+  background-color: #d6d6d6;
+  border: 0;
+  width: 70%;
+  position: relative;
+  left: 14%;
+}
+
+#Condition{
+  position: absolute;
+  top: 74%;
+  left: 21%;
+  font-size: 0.7em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#User-Register{
+  position: absolute;
+  left: 14%;
+  top: 16%;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+#Surnames-Register{
+  position: absolute;
+  left: 14%;
+  top: 30%;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+#Email-Register{
+  position: absolute;
+  left: 14%;
+  top: 44%;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+#Password-Register{
+  position: absolute;
+  left: 14%;
+  top: 58%;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+#Email {
+  position: absolute;
+  left: 14%;
+  top: 25%;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+#email_Login{
+  background-color: #ffffff;
+  border: 0;
+  width: 70%;
+  position: absolute;
+  left: 14%;
+  top: 35%;
+  
+}
+#password_Login{
+  background-color: #ffffff;
+  border: 0;
+  width: 70%;
+  position: absolute;
+  left: 14%;
+  top: 60%;
+}
+
+#Password {
+  position: absolute;
+  left: 14%;
+  top: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#password {
+  position: relative;
+  left: -86px;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.place {
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  color: black;
+}
+
+#place:focus {
+  outline: none;
+}
+
+.button-container {
+  position: absolute;
+  left: 30%;
+  top: 70%;
+}
+
+/*Fuentes de texto*/
+
+.abrev-Register {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  left: -50%;
+  top: 10%;
+}
+.abrev-Login{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  font-size: 3em;
+  left: -53%;
+  top: 12%;
+}
+.txt1-Login{
+  position: absolute;
+  font-size: 2em;
+  left: -72%;
+  top: 26%;
+}
+.txt2-Login{
+  position: absolute;
+  width: 70%;
+  background-color: #ffffff;
+  font-size: 1.3em;
+  left: -85%;
+  top: 45%;
+  text-align: center;
+}
+
+.txt1-Register{
+  position: absolute;
+  font-size: 2em;
+  left: -72%;
+  top: 20%;
+}
+
+.txt2-Register{
+  position: absolute;
+  width: 70%;
+  height: 10%;
+  background-color: #7bcfbf;
+  font-size: 1.1em;
+  left: -85%;
+  top: 33%;
+  text-align: center;
+}
+
+/*Botones*/
+
+
+
+#Create-button {
+  width: 150px;
+  height: 30px;
+  background: #f00000;
+  background: -webkit-linear-gradient(to left,
+      #f21f14,
+      #f00000);
+  background: linear-gradient(to left,
+      #ff2519,
+      #f00000);
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+
+#Create-button_cancel {
+  width: 150px;
+  height: 40px;
+  margin-top: 64%;
+  margin-left: 8%;
+  background: linear-gradient(to left, #14899b, #14899b);
+  font-size: 15px;
+  color: white;
+  padding: 5px 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+#Login-button{
+  width: 150px;
+  height: 40px;
+  margin-top: 64%;
+  margin-left: 28%;
+  background: linear-gradient(to left, #019002, #019002);
+  font-size: 15px;
+  color: white;
+  padding: 5px 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+#Create-User-button-Register {
+  width: 33%;
+  height: 10%;
+  margin-top: 12%;
+  margin-left: 11%;
+  background: linear-gradient(to left, #14899b, #14899b);
+  font-size: 12px;
+  color: white;
+  padding: 5px 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+h4 {
+  margin-top: 15px;
+}
+
+#Text-Login{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top:20%;
+  margin-left: 4%;
+}
+#Title-Register{
+ margin-left: 20%;
+}
+#accept-condition{
+  position: absolute;
+  left: 15%;
+  top: 73%;
+}

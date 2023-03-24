@@ -1,0 +1,135 @@
+.Title-RegisteredPaymentMethods {
+    font-size: 28px;
+}
+
+
+.Title-Register-Payment {
+    font-family: 'Cambay', sans-serif;
+}
+
+.Title_Payment-home {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.payment-container {
+    width: 100%;
+    height: 70vh;
+    margin-top: 22vh;
+    position: relative;
+}
+
+.payment-data-container {
+    width: 65%;
+    height: 100%;
+    float: left;
+    font-size: 15px;
+}
+
+.payment-data-container2 {
+    width: 55%;
+    height: 60%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 22%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#card-number {
+    left: 2%;
+    top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+#owner-name {
+    left: 0%;
+    top: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+#expiration-date {
+    left: 0%;
+    top: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+#cvv {
+    left: 0%;
+    top: 55%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+#card-number input,
+#owner-name input,
+#expiration-date input,
+#cvv input {
+    width: 50vh;
+    height: 5vh;
+    text-align: center;
+    font-size: 15px;
+}
+
+.payment-scroll-container {
+    width: 34.5%;
+    margin-left: 0.5%;
+    height: 30vh;
+    text-align: center;
+    float: left;
+    background-color: #00c6ff;
+    border-right: 90px black;
+}
+
+.header-scroll {
+    width: 100%;
+    height: 15vh;
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to right,
+            #0072ff,
+            #00c6ff);
+    background: linear-gradient(to right,
+            #0072ff,
+            #00c6ff);
+    font-family: 'Cambay', sans-serif;
+    font-size: 18px;
+}
+
+.content-scroll-container {
+    width: 100%;
+    height: 65vh;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    overflow-y: scroll;
+}
+
+.content-scroll-data {
+    width: 100%;
+    height: auto;
+}
+
+.AddMetodoDePago {
+    width: 15vh;
+    height: 8vh;
+    margin-top: 3vh;
+    margin-left: 18vh;
+    background: #008cff;
+    background: -webkit-linear-gradient(to left, #0072ff, #027bdf);
+    background: linear-gradient(to left, #0072ff, #00b7ff);
+    font-size: 15px;
+    color: white;
+    padding: 5px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
