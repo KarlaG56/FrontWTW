@@ -12,11 +12,11 @@ function Header() {
                 <a className='div-title'>Watering the world </a>
             </Link>
 
-            <Link to="/" id="Estadistica">
+            <Link to="/Statistics" id="Estadistica">
                 <a>Estadistíca</a>
             </Link>
 
-            <Link to="/" id="ESP32">
+            <Link to="/RegisterESP" id="ESP32">
                 <a>Registro de EP32</a>
             </Link>
 

@@ -10,11 +10,11 @@ function Aside() {
 
     return (
         <nav className='Nav-controler'>
-            <Link to="/" className='Block'>
+            <Link to="/Statistics" className='Block'>
                 <a>| Estadística |</a>
             </Link>
 
-             <Link to="/" className='Block'>
+            <Link to="/RegisterESP" className='Block'>
                 <a>| Registro de ESP32 |</a>
             </Link>
 

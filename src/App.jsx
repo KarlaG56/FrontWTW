@@ -6,6 +6,7 @@ import About from "./components/Page/Footer_About"
 import Frequent from "./components/Page/Footer_Frequent"
 import Policies from "./components/Page/Footer_Policies"
 import Terms from "./components/Page/Footer_Terms"
+import RegisterESP from "./components/Page/RegisterESP";
 
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
       <Routes>
         <Route path='/Login' element={<Login />} />
         <Route path='/Register' element={<Register />} />
-        <Route path="/" element={<Statistics/>}/>
+        <Route path="/Statistics" element={<Statistics/>}/>
+        <Route path="/RegisterESP" element={<RegisterESP/>}/>
+        
        
         <Route path='/About' element={<About />} />
         <Route path='/Frequent' element={<Frequent />} />
