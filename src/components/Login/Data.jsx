@@ -1,9 +1,9 @@
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Data() {
     return (
         <div className="Login-container">
-             <br/><br/>
+            <br /><br />
             <div className="title-container-1">
                 <div className="Logo-container">
                     <img src="/img/logoWTW.png" alt="" />
@@ -25,19 +25,19 @@ function Data() {
                     </div>
                     <div>
                         <label id="Email">Correo electrónico:</label><br />
-                        <input className="place" type="text" name="email" id='email_Login'/>
+                        <input className="place" type="text" name="email" id='email_Login' />
                     </div>
                     <br />
 
                     <div >
                         <label id="Password">Contraseña:</label><br />
-                        <input className="place" type="password" name="password" id='password_Login'/>
+                        <input className="place" type="password" name="password" id='password_Login' />
                     </div>
 
-                    <Link type='submit'to="/Estadistica" id="Login-button">Iniciar sesión</Link> 
-                
+                    <button type='submit'  id="Login-button">Iniciar sesión</button>
+                    <br />
                     <h4 id='Text-Login'>¿Todavía no tienes una cuenta? <Link id="Text-Register" to="/Registro">Regístrate</Link></h4>
-                    
+
                 </form>
             </div>
         </div>

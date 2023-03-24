@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+
 function Aside() {
 
     const logout = () => {
@@ -7,6 +8,17 @@ function Aside() {
         setValidate(false)
         window.localStorage.removeItem("token")
     }
+
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    
 
     return (
         <nav className='Nav-controler'>
@@ -22,13 +34,15 @@ function Aside() {
                 <a>| Cambiar contraseña |</a>
             </Link>
 
-            <Link to="/" className='Block'>
+            <Link to="/Estadistica" className='Block' onClick={handleClickOpen}>
                 <a>| Eliminar cuenta |</a>
             </Link>
 
             <Link to="/" className='Block' onClick={logout}>
                 <a>| Cerrar sesión </a>
             </Link>
+
+          
         </nav>
     )
 }

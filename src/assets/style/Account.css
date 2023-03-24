@@ -58,6 +58,8 @@
   top:24%;
   left:26%;
   background-color: #8adb1f;
+  margin-bottom: 15vh;
+
 }
 
 .RegisterForm-container{
@@ -305,9 +307,9 @@ form {
 }
 
 #Login-button{
-  width: 150px;
-  height: 40px;
-  margin-top: 54%;
+  width: 25vh;
+  height: 5vh;
+  margin-top: 58%;
   margin-left: 24%;
   background: linear-gradient(to left, #019002, #019002);
   font-size: 15px;
@@ -363,5 +365,6 @@ h4 {
 }
 
 #Text-Register{
-  color: #14899b;
+  color: #ffffff;
+  text-decoration: none
 }
