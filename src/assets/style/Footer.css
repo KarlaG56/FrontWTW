@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 .Footer {
-  width: 100%;
+  width: 230vh;
   height: 30vh;
+ 
+  margin-left: -2vh;
+  margin-right: 5vh;
   text-align: center;
   color: white;
   background: #019002; 
@@ -75,5 +78,10 @@
 .copyright {
   font-size: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-link{
+  color: white;
+  text-decoration: none;
 }
 

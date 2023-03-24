@@ -34,8 +34,9 @@ function Data() {
                         <input className="place" type="password" name="password" id='password_Login'/>
                     </div>
 
-                    <button type='submit' id="Login-button">Iniciar sesión</button>
-                    <h4 id='Text-Login'>¿Todavía no tienes una cuenta? <Link id="Text-Register" to="/Register">Regístrate</Link></h4>
+                    <Link type='submit'to="/Estadistica" id="Login-button">Iniciar sesión</Link> 
+                
+                    <h4 id='Text-Login'>¿Todavía no tienes una cuenta? <Link id="Text-Register" to="/Registro">Regístrate</Link></h4>
                     
                 </form>
             </div>

@@ -1,3 +1,5 @@
+
+
 .Title-RegisteredPaymentMethods {
     font-size: 28px;
 }
@@ -19,17 +21,19 @@
     height: 70vh;
     margin-top: 22vh;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .payment-data-container {
-    width: 65%;
+    width: 35%;
     height: 100%;
+    margin-right: 64vh;
     float: left;
     font-size: 15px;
 }
 
 .payment-data-container2 {
-    width: 55%;
+    width: 25%;
     height: 60%;
     float: left;
     margin-top: 5%;
@@ -90,13 +94,7 @@
 .header-scroll {
     width: 100%;
     height: 15vh;
-    background: #00c6ff;
-    background: -webkit-linear-gradient(to right,
-            #0072ff,
-            #00c6ff);
-    background: linear-gradient(to right,
-            #0072ff,
-            #00c6ff);
+    background: #7bcfbf;
     font-family: 'Cambay', sans-serif;
     font-size: 18px;
 }
@@ -104,9 +102,7 @@
 .content-scroll-container {
     width: 100%;
     height: 65vh;
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    background: linear-gradient(to right, #434343, #000000);
+    background-color: #002923;
     overflow-y: scroll;
 }
 
@@ -121,15 +117,12 @@
     margin-top: 3vh;
     margin-left: 18vh;
     background: #008cff;
-    background: -webkit-linear-gradient(to left, #0072ff, #027bdf);
-    background: linear-gradient(to left, #0072ff, #00b7ff);
     font-size: 15px;
     color: white;
     padding: 5px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 2px solid black;
     text-decoration: none;
-    font-size: 16px;
     border-radius: 25px;
     cursor: pointer;
 }

@@ -34,12 +34,13 @@ function Footer() {
 
                 <div className='div-section'>
 
-                    <h3 className='title-sections'>Redes sociales</h3>
+                    <h3 className='title-sections'>Contactanos</h3>
+                    <a id="text-link">systemwtw@gmail.com</a>
                 </div>
 
                 <div >
                     <div class="copyright">
-                        © Copyright 2022. Todos los derechos reservados. Desarollado por Watering the world
+                        © Copyright 2023. Todos los derechos reservados. Desarollado por Watering the world
                     </div>
                 </div>
             </div>

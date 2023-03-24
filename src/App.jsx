@@ -14,16 +14,14 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/Login' element={<Login />} />
-        <Route path='/Register' element={<Register />} />
-        <Route path="/Statistics" element={<Statistics/>}/>
-        <Route path="/RegisterESP" element={<RegisterESP/>}/>
-        
-       
-        <Route path='/About' element={<About />} />
-        <Route path='/Frequent' element={<Frequent />} />
-        <Route path='/Policies' element={<Policies />} />
-        <Route path='/Terms' element={<Terms />} />
+        <Route path='/' element={<Login />} />
+        <Route path='/Registro' element={<Register />} />
+        <Route path="/Estadistica" element={<Statistics/>}/>
+        <Route path="/Registro-ESP32" element={<RegisterESP/>}/>
+        <Route path='/SObre-nosotros' element={<About />} />
+        <Route path='/Preguntas-frecuentes' element={<Frequent />} />
+        <Route path='/Politicas' element={<Policies />} />
+        <Route path='/Terminos' element={<Terms />} />
       </Routes>
     </BrowserRouter>
   )
