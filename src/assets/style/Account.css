@@ -81,13 +81,6 @@
   z-index: 1;
 }
 
-.Title_R {
-  margin-top: 10px;
-  font-size: 25px;
-  font-family: 'Cambay', sans-serif;
-  margin-bottom: -15px;
-}
-
 form {
   margin-top: 20px;
 }
@@ -231,19 +224,22 @@ form {
   top: 10%;
 }
 .abrev-Login{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Bebas Neue", cursive;
   position: absolute;
   font-size: 3em;
   left: -53%;
   top: 12%;
 }
 .txt1-Login{
+  font-family: "Bebas Neue", cursive;
   position: absolute;
   font-size: 2em;
   left: -72%;
   top: 26%;
 }
 .txt2-Login{
+
+  font-family: 'Cambay', sans-serif;
   position: absolute;
   width: 70%;
   background-color: #ffffff;

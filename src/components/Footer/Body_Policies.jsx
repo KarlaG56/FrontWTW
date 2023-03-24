@@ -1,7 +1,7 @@
 function Body() {
     return (
        <>
-        <embed src="/PDF/Politica_Privacidad_Confidencialidad.pdf" type="application/pdf" className="policies-pdf" />
+        <embed src="/PDF/Politicas.pdf" type="application/pdf" className="pdf" />
        </>
     );
 }

@@ -18,7 +18,7 @@ function App() {
         <Route path='/Registro' element={<Register />} />
         <Route path="/Estadistica" element={<Statistics/>}/>
         <Route path="/Registro-ESP32" element={<RegisterESP/>}/>
-        <Route path='/SObre-nosotros' element={<About />} />
+        <Route path='/Sobre-nosotros' element={<About />} />
         <Route path='/Preguntas-frecuentes' element={<Frequent />} />
         <Route path='/Politicas' element={<Policies />} />
         <Route path='/Terminos' element={<Terms />} />

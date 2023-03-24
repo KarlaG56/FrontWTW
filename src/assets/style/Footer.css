@@ -75,6 +75,8 @@
   font-size: 15px;
 }
 
+
+
 .copyright {
   font-size: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -83,5 +85,12 @@
 #text-link{
   color: white;
   text-decoration: none;
+}
+
+.pdf{
+  width: 100%;
+  height: 670px;
+  position: absolute;
+  left: 0px;
 }
 

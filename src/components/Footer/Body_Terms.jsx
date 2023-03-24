@@ -1,7 +1,7 @@
 function Body() {
     return (
        <>
-            <embed src="/PDF/Terminos_Condiciones.pdf" type="application/pdf"  className="terms-pdf"/>
+            <embed src="/PDF/Terminos.pdf" type="application/pdf"  className="pdf"/>
        </>
     );
 }
