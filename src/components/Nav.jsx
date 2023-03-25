@@ -22,7 +22,7 @@ function Aside() {
 
     return (
         <nav className='Nav-controler'>
-            <Link to="" className='Block'>
+            <Link to="/Estadistica" className='Block'>
                 <a>| Estadística |</a>
             </Link>
 

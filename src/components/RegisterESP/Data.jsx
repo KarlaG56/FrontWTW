@@ -12,11 +12,10 @@ function Data() {
                         <div className='Title-Register-Payment'>
                             <h1>Register ESP32</h1>
                         </div>
-                        <label id="card-number">otro dato:<br /><input type="text"/></label><br />
-                        <label id="owner-name">Other date:<br /><input type="text"/></label><br />
-                        <label id="expiration-date">conexion date:<br /><input type="date"/></label><br />
-                        <label id="cvv">No. ESP:<br /><input type="text"/></label><br />
-                        <button className="AddMetodoDePago">Add</button>
+                        <label id="card-number">Clave:<br /><input type="text"/></label>
+                        <br />
+                        <label id="owner-name">Tipo:<br /><input type="text"/></label><br />
+                        <button className="AddMetodoDePago">Añadir</button>
                     </form>
                 </div>
 
