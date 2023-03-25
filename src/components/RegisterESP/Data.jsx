@@ -10,7 +10,7 @@ function Data() {
 
                     <form>
                         <div className='Title-Register-Payment'>
-                            <h1>Register ESP</h1>
+                            <h1>Register ESP32</h1>
                         </div>
                         <label id="card-number">otro dato:<br /><input type="text"/></label><br />
                         <label id="owner-name">Other date:<br /><input type="text"/></label><br />

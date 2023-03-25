@@ -97,10 +97,12 @@ form {
   width: 70%;
   position: relative;
   left: 14%;
+  outline: none;
 }
 
 #surnames-user{
   background-color: #d6d6d6;
+  outline: none;
   border: 0;
   width: 70%;
   position: relative;
@@ -113,6 +115,7 @@ form {
   width: 70%;
   position: relative;
   left: 14%;
+  outline: none;
 }
 
 #passwordConfirm1{
@@ -121,13 +124,15 @@ form {
   width: 70%;
   position: relative;
   left: 14%;
+  outline: none;
 }
 
 #Condition{
   position: absolute;
   top: 74%;
+  outline: none;
   left: 21%;
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -218,7 +223,7 @@ form {
 /*Fuentes de texto*/
 
 .abrev-Register {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Bebas Neue", cursive;
   position: absolute;
   left: -50%;
   top: 10%;
@@ -238,7 +243,6 @@ form {
   top: 26%;
 }
 .txt2-Login{
-
   font-family: 'Cambay', sans-serif;
   position: absolute;
   width: 70%;
@@ -250,6 +254,7 @@ form {
 }
 
 .txt1-Register{
+  font-family: "Bebas Neue", cursive;
   position: absolute;
   font-size: 2em;
   left: -72%;
@@ -257,11 +262,12 @@ form {
 }
 
 .txt2-Register{
+  font-family: 'Cambay', sans-serif;
   position: absolute;
   width: 70%;
   height: 10%;
   background-color: #7bcfbf;
-  font-size: 1.1em;
+  font-size: 1em;
   left: -85%;
   top: 33%;
   text-align: center;
@@ -352,6 +358,7 @@ h4 {
 
 #Title-Register{
  margin-left: 20%;
+ font-family: 'Cambay', sans-serif;
 }
 
 #accept-condition{
@@ -362,5 +369,5 @@ h4 {
 
 #Text-Register{
   color: #ffffff;
-  text-decoration: none
+ 
 }
