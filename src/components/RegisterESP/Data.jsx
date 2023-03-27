@@ -23,7 +23,7 @@ function Data() {
             <div className="payment-scroll-container">
                 <div className="header-scroll">
                     <br/>
-                    <h1 className="Title-RegisteredPaymentMethods">Esp</h1>
+                    <h1 className="Title-RegisteredPaymentMethods">Registros</h1>
                 </div>
                 <div className="content-scroll-container">
                     <div className="content-scroll-data">

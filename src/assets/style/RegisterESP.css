@@ -2,11 +2,14 @@
 
 .Title-RegisteredPaymentMethods {
     font-size: 28px;
+    margin-top:-1.2vh;
 }
 
 
 .Title-Register-Payment {
     font-family: 'Cambay', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .Title_Payment-home {
@@ -34,10 +37,10 @@
 }
 
 .payment-data-container2 {
-    width: 70%;
-    height: 110%;
+    width: 55%;
+    height: 100%;
     float: left;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 15%;
     font-size: 15px;
     display: flex;
@@ -98,15 +101,14 @@
 .header-scroll {
     width: 100%;
     height: 12.5vh;
-    background: #7bcfbf;
+    background:#84e502;
     font-family: 'Cambay', sans-serif;
     font-size: 18px;
 }
 
 .content-scroll-container {
     width: 100%;
-    height: 65vh;
-  
+    height: 65vh;  
     background-color: #002923;
     overflow-y: scroll;
 }
@@ -119,9 +121,10 @@
 .AddMetodoDePago {
     width: 15vh;
     height: 8vh;
+    border:none;
     margin-top: 3vh;
     margin-left: 18vh;
-    background: #008cff;
+    background: #84e502;
     font-size: 15px;
     color: white;
     padding: 5px 20px;
@@ -129,3 +132,17 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+input{
+    margin-bottom: 20px;
+    padding: 1px 8px;
+    outline: none;
+    border:none;
+    border-bottom: solid #019002;
+    font-size:13px;
+  }
+
+  input::placeholder{
+    color: rgb(138, 138, 138);
+    text-align: center;
+  }
