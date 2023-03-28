@@ -15,3 +15,12 @@
     display: flex;
     justify-content: center;
 }
+
+.menu-container-statistic{
+    width: 25vh;
+    height: 15vh;
+    position: absolute;
+    top: 23vh;
+    left: 5vh;
+    color: black;
+}
