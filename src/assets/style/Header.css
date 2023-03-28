@@ -13,7 +13,7 @@
   top: 0;
 }
 
-.div-container-title{
+.div-container-title {
   display: flex;
   align-items: center;
   align-content: center;
@@ -27,32 +27,32 @@
   margin-top: 10%;
 }
 
-.Logo{
+.Logo {
   margin-top: 5%;
   margin-left: -25%;
   width: 13vh;
-  height:13vh;
+  height: 13vh;
   display: flex;
   justify-content: center;
 }
 
-.Logo img{
+.Logo img {
   animation: movimiento 3s infinite linear;
 }
 
 @keyframes movimiento {
-  0%{
-      transform: translateX(0);
+  0% {
+    transform: translateX(0);
   }
 
-  50%{
-      transform: translateX(8%);
+  50% {
+    transform: translateX(8%);
   }
 
-  100%{
-      transform: translateY(0%);
+  100% {
+    transform: translateY(0%);
   }
-  
+
 }
 
 img {
@@ -74,7 +74,7 @@ img {
   justify-content: space-between;
   line-height: 40vh;
   top: 3vh;
-  
+
 }
 
 .Nav-controler a {
@@ -83,4 +83,133 @@ img {
   text-decoration: none;
   margin-left: 1vh;
   margin-right: 1vh;
+  cursor: pointer;
+}
+
+#btn-delete-account {
+  background: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.alert-container {
+  width: 350px;
+  height: 375px;
+  position: relative;
+  right: 640px;
+  top: -110px;
+  z-index: var(--invisible);
+  background-color: rgb(21, 101, 193, 0.15);
+  backdrop-filter: blur(50px);
+  color: black;
+}
+
+#text-alert {
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#alert-password-input {
+  width: 310px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+
+#alert-password-input::placeholder {
+  color: gray;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#alert-password-input:focus {
+  outline: none;
+}
+
+#button-alert-confirm {
+  width: 310px;
+  height: 30px;
+  position: relative;
+  right: 22.5%;
+  font-size: 15px;
+  background: #f00000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#button-alert-cancel {
+  width: 310px;
+  height: 30px;
+  position: relative;
+  right: 22.5%;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#aler-input-actpassword {
+  width: 220px;
+  height: 30px;
+  position: relative;
+  left: 27%;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-left: -9vh;
+}
+
+#aler-input-newpassword {
+  width: 220px;
+  height: 30px;
+  position: relative;
+  left: 27%;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-left: -9vh;
+}
+
+#aler-input-confpassword {
+  width: 220px;
+  height: 30px;
+  position: relative;
+  left: 27%;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-left: -9vh;
+}
+
+#button-alert-confirm-password {
+  width: 200px;
+  padding: auto;
+  height: 30px;
+  position: relative;
+  left:-3vh;
+  font-size: 15px;
+  background: #84e502;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#button-alert-cancel-password {
+  width: 200px;
+  height: 30px;
+  position: relative;
+  left:-3vh;
+  font-size: 15px;
+  cursor: pointer;
 }

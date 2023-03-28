@@ -133,15 +133,10 @@
     cursor: pointer;
 }
 
-input{
+#inpt-data{
     margin-bottom: 20px;
     padding: 1px 8px;
     outline: none;
     border:none;
     border-bottom: solid #14899b
-  }
-
-  input::placeholder{
-    color: rgb(138, 138, 138);
-    text-align: center;
   }

@@ -12,9 +12,9 @@ function Data() {
                         <div className='Title-Register-Payment'>
                             <h1>Register ESP32</h1>
                         </div>
-                        <label id="card-number">Clave:<br /><input type="text"/></label>
+                        <label id="card-number">Clave:<br /><input type="text" id="inpt-data"/></label>
                         <br />
-                        <label id="owner-name">Tipo:<br /><input type="text"/></label><br />
+                        <label id="owner-name">Tipo:<br /><input type="text" id="inpt-data"/></label><br />
                         <button className="AddMetodoDePago">Añadir</button>
                     </form>
                 </div>
