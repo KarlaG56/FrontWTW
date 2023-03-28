@@ -10,7 +10,7 @@ function Aside() {
 
     return (
         <nav className='Nav-controler'>
-            <Link to="/Statistics" className='Block'>
+            <Link to="/" className='Block'>
                 <a>| Estadística |</a>
             </Link>
 
@@ -22,7 +22,7 @@ function Aside() {
                 <a>| Cambiar contraseña |</a>
             </Link>
 
-            <Link to="/" className='Block'>
+            <Link to="/DeleteAccount" className='Block'>
                 <a>| Eliminar cuenta |</a>
             </Link>
 

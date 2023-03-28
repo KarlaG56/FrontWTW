@@ -1,0 +1,54 @@
+.Box-Delete-acount{
+    width: 100vh;
+    height: 60vh;
+    position: relative;
+    left: 23%;
+    top: 20vh;
+}
+
+.Alert-container{
+    width: 96%;
+    height: 30%;
+    position: relative;
+    top: 1vh;
+    left: 2vh;
+    font-size: 18px;
+    text-align: center;
+}
+
+.confirm-delete-container{
+    width: 96%;
+    height: 68%;
+    position: relative;
+    left: 2vh;
+}
+
+#alert-password-input{
+    width: 50vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 23%;
+    top: 18%;
+}
+
+#button-alert-confirm{
+    width: 15vh;
+    height: 5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 23%;
+    top: 40%;
+    overflow: hidden;
+    float: left;
+}
+
+#button-alert-cancel{
+    width: 15vh;
+    height: 5vh;
+    border-radius: 10px;
+    position: relative;
+    left: 45%;
+    top: 31%;
+}
