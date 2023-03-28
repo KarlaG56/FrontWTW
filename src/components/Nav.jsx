@@ -42,7 +42,7 @@ function Aside() {
 
     return (
         <nav className='Nav-controler'>
-            <Link to="/Estadistica" className='Block'>
+            <Link to="/Ambiente" className='Block'>
                 <a>| Estadística |</a>
             </Link>
 
@@ -50,7 +50,7 @@ function Aside() {
                 <a>| Registro de ESP32 |</a>
             </Link>
 
-            <Link to="/Estadistica" className='Block'>
+            <Link to="/Ambiente" className='Block'>
                 <a><button onClick={handleClickOpenPassword} id='btn-delete-account'>| Cambiar contraseña |</button></a>
             </Link>
 
@@ -79,7 +79,7 @@ function Aside() {
                 </DialogActions>
             </Dialog>
 
-            <Link to="/Estadistica" className='Block' >
+            <Link to="/Ambiente" className='Block' >
                 <a><button onClick={handleClickOpen} id='btn-delete-account'>| Eliminar cuenta |</button></a>
             </Link>
 
@@ -104,8 +104,6 @@ function Aside() {
             <Link to="/" className='Block' onClick={logout}>
                 <a>| Cerrar sesión </a>
             </Link>
-
-
         </nav>
     )
 }

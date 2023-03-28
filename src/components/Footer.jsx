@@ -35,7 +35,7 @@ function Footer() {
                 <div className='div-section'>
 
                     <h3 className='title-sections'>Contactanos</h3>
-                    <a id="text-link">systemwtw@gmail.com</a>
+                    <a >systemwtw@gmail.com</a>
                 </div>
 
                 <div >
