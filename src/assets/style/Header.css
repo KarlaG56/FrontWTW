@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+body{
+  font-family: 'Cambay', sans-serif;
+}
+
 .Header-controler {
   width: 100%;
   height: 20%;
@@ -205,11 +209,6 @@ img {
   cursor: pointer;
 }
 
-#button-alert-cancel-password {
-  width: 200px;
-  height: 30px;
-  position: relative;
-  left:-3vh;
-  font-size: 15px;
-  cursor: pointer;
+#list-container{
+  text-decoration: none;
 }
