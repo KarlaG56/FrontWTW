@@ -36,13 +36,29 @@ function Aside() {
         setOpen(false);
     };
 
+    const [openDelete, setOpenDelete] = React.useState(false);
+    const handleClickOpenDelete = () => {
+        setOpenDelete(true);
+    };
+
+    const handleClickOpenPasswordDelete = () => {
+        setOpenDelete(true);
+    };
+
+    const handleCloseDelete = () => {
+        setOpenDelete(false);
+    };
+
+    const handleClosePasswordDelete = () => {
+        setOpenDelete(false);
+    };
 
 
 
 
     return (
         <nav className='Nav-controler'>
-            <Link to="/Ambiente" className='Block'>
+            <Link to="/Estadistica" className='Block'>
                 <a>| Estadística |</a>
             </Link>
 
@@ -50,9 +66,7 @@ function Aside() {
                 <a>| Registro de ESP32 |</a>
             </Link>
 
-            <Link to="/Ambiente" className='Block'>
                 <a><button onClick={handleClickOpenPassword} id='btn-delete-account'>| Cambiar contraseña |</button></a>
-            </Link>
 
             <Dialog open={open} onClose={handleClosePassword}>
                 <DialogTitle>Cambiar contraseña.</DialogTitle>
@@ -79,12 +93,9 @@ function Aside() {
                 </DialogActions>
             </Dialog>
 
-            <Link to="/Ambiente" className='Block' >
-                <a><button onClick={handleClickOpen} id='btn-delete-account'>| Eliminar cuenta |</button></a>
-            </Link>
 
-
-            <Dialog open={open} onClose={handleClose}>
+                <a><button onClick={handleClickOpenDelete} id='btn-delete-account'>| Eliminar cuenta |</button></a>
+            <Dialog open={openDelete} onClose={handleCloseDelete}>
                 <DialogTitle>Esta acción no se puede deshacer. Esto eliminará permanentemente toda su cuenta. Se eliminarán todos los espacios de trabajo privados.</DialogTitle>
                 <DialogContent>
                     <DialogContentText>Por favor, escriba su contraseña para confirmar..</DialogContentText>
@@ -94,12 +105,9 @@ function Aside() {
                     <button id='button-alert-confirm'>Eliminar cuenta de forma permanente.</button><br />
                 </DialogActions>
                 <DialogActions>
-                    <button onClick={handleClose} id='button-alert-cancel'>Cancelar</button>
+                    <button onClick={handleCloseDelete} id='button-alert-cancel'>Cancelar</button>
                 </DialogActions>
             </Dialog>
-
-
-
 
             <Link to="/" className='Block' onClick={logout}>
                 <a>| Cerrar sesión </a>

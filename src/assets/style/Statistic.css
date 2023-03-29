@@ -5,11 +5,13 @@
     height: 60vh;
     position: relative;
     top: 20vh;
+    display: flex;
+    justify-content: center;
 }
 
 .div-container-statistic {
     height: 100%;
-    width: 100%;
+    width: 75%;
     background-color: rgb(255, 255, 255);
     text-align: center;
     display: flex;

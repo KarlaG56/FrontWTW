@@ -1,26 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 .Footer {
-  width: 230vh;
-  height: 30vh;
- 
-  margin-left: -2vh;
-  margin-right: 5vh;
+  width: 186vh;
+  height: 18.8vh;
   text-align: center;
   color: white;
-  background: #019002; 
-  margin-top: 10px;
+  background: #019002;
   position: relative;
   bottom: -20vh;
 }
 
 .div-section {
   width: 25%;
-  height: 70%;
+  height: 80%;
   float: left;
   color: white;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 .title-sections{
@@ -31,13 +27,13 @@
 #id {
   font-size: 15px;
   position: relative;
-  top: 10px;
+  top: 3px;
   display: flex;
 }
 
 .social_networks{
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;

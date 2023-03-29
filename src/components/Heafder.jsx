@@ -11,7 +11,9 @@ function Header() {
                 <a className='div-title'>Watering the world </a>
             </Link>
 
-            <a>Estadistíca</a>
+            <Link to="/Estadisticas" id="Estadistica">
+                <a>Estadistíca</a>
+            </Link>
             <ul>
                 <Link to="/Tierra" id="Estadistica">
                     <li><a href="#">Tierra</a></li>
