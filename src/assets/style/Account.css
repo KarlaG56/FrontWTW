@@ -275,8 +275,6 @@ form {
 
 /*Botones*/
 
-
-
 #Create-button {
   width: 150px;
   height: 30px;
@@ -288,7 +286,6 @@ form {
   text-decoration: none;
   border-radius: 25px;
 }
-
 
 #Create-button_cancel {
   width: 33%;
@@ -369,5 +366,4 @@ h4 {
 
 #Text-Register{
   color: #ffffff;
- 
 }

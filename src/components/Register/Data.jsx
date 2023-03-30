@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
-
 function Data() {
-
   return (
     <div className="Register-container">
       <div className="title-container-2">
@@ -16,7 +14,6 @@ function Data() {
         <div className="Register-Img-container">
           <img src="/img/RiegoAutomatisado.jpg" alt="" />
         </div>
-
       </div>
 
       <div className="RegisterForm-container">
@@ -52,11 +49,8 @@ function Data() {
 
           <input type="checkbox" id="accept-condition" value="second_checkbox"></input><a id="Condition">Acepto todos los términos y condiciones del sistema</a>
 
-          
           <button id="Create-User-button-Register" >Registrarme</button>
           <Link id="Create-button_cancel" to="/">Ya tengo cuenta</Link>
-
-
         </form>
       </div>
     </div>

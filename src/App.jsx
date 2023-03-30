@@ -20,12 +20,10 @@ function App() {
         <Route path='/' element={<Login />} />
         <Route path='/Registro' element={<Register />} />
         <Route path="/Estadistica" element={<Statistics/>}/>
-        <Route path="/Tierra" element={<Tierra/>}/>
-        <Route path="/Atmosfera" element={<Atmosfera/>}/>
-        <Route path="/Ambiente" element={<Ambiente/>}/>
+        <Route path="/Estadistica/Tierra" element={<Tierra/>}/>
+        <Route path="/Estadistica/Atmosfera" element={<Atmosfera/>}/>
+        <Route path="/Estadistica/Ambiente" element={<Ambiente/>}/>
         <Route path="/Registro-ESP32" element={<RegisterESP/>}/>
-        
-       
         <Route path='/Sobre-nosotros' element={<About />} />
         <Route path='/Preguntas-frecuentes' element={<Frequent />} />
         <Route path='/Politicas' element={<Policies />} />

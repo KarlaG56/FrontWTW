@@ -1,12 +1,11 @@
 import "../assets/style/Footer.css";
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Footer() {
 
     return (
-        <>
+    
             <div className="Footer">
-
                 <div className='div-section'>
                     <h3 className='title-sections'>Negocio</h3>
                     <Link to="/Sobre-nosotros" id="text">
@@ -37,17 +36,13 @@ function Footer() {
                     <h3 className='title-sections'>Contactanos</h3>
                     <a >systemwtw@gmail.com</a>
                 </div>
-
+                <br></br>
                 <div >
                     <div class="copyright">
                         © Copyright 2023. Todos los derechos reservados. Desarollado por Watering the world
                     </div>
                 </div>
             </div>
-
-        </>
     );
 }
 export default Footer;
-
-//<span id='copyright'>© Copyright 2022. All rights reserved. Developed by Touring The Globe✨.</span>

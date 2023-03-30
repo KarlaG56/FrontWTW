@@ -6,10 +6,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import Dialog from '@material-ui/core/Dialog';
 
-
-
 function Aside() {
-
 
     const [open, setOpen] = React.useState(false);
 
@@ -19,17 +16,8 @@ function Aside() {
         window.localStorage.removeItem("token")
     }
 
-
-    const handleClickOpen = () => {
-        setOpen(true);
-    };
-
     const handleClickOpenPassword = () => {
         setOpen(true);
-    };
-
-    const handleClose = () => {
-        setOpen(false);
     };
 
     const handleClosePassword = () => {
@@ -41,20 +29,9 @@ function Aside() {
         setOpenDelete(true);
     };
 
-    const handleClickOpenPasswordDelete = () => {
-        setOpenDelete(true);
-    };
-
     const handleCloseDelete = () => {
         setOpenDelete(false);
     };
-
-    const handleClosePasswordDelete = () => {
-        setOpenDelete(false);
-    };
-
-
-
 
     return (
         <nav className='Nav-controler'>
@@ -66,7 +43,7 @@ function Aside() {
                 <a>| Registro de ESP32 |</a>
             </Link>
 
-                <a><button onClick={handleClickOpenPassword} id='btn-delete-account'>| Cambiar contraseña |</button></a>
+            <a><button onClick={handleClickOpenPassword} id='btn-delete-account'>| Cambiar contraseña |</button></a>
 
             <Dialog open={open} onClose={handleClosePassword}>
                 <DialogTitle>Cambiar contraseña.</DialogTitle>
@@ -94,7 +71,7 @@ function Aside() {
             </Dialog>
 
 
-                <a><button onClick={handleClickOpenDelete} id='btn-delete-account'>| Eliminar cuenta |</button></a>
+            <a><button onClick={handleClickOpenDelete} id='btn-delete-account'>| Eliminar cuenta |</button></a>
             <Dialog open={openDelete} onClose={handleCloseDelete}>
                 <DialogTitle>Esta acción no se puede deshacer. Esto eliminará permanentemente toda su cuenta. Se eliminarán todos los espacios de trabajo privados.</DialogTitle>
                 <DialogContent>
@@ -117,7 +94,3 @@ function Aside() {
 }
 
 export default Aside;
-
-/*
-
-            */

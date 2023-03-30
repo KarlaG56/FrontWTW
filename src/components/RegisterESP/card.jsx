@@ -7,7 +7,6 @@ function cardPay(props) {
             <span>Owner Name: {props.name}</span><br/>
             <span>CVV:{props.cvv}</span><br />
             <br/>
-
         </div>
     )
 }

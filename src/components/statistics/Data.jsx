@@ -37,13 +37,13 @@ function Data() {
         <div className="Body">
             <div className='menu-container-statistic'>
                 <ul>
-                    <Link to="/Ambiente" id='list-container'>
+                    <Link to="/Estadistica/Ambiente" id='list-container'>
                         <a><li>Ambiente</li></a>
                     </Link>
-                    <Link to="/Atmosfera" id='list-container'>
+                    <Link to="/Estadistica/Atmosfera" id='list-container'>
                         <a><li>Atmosfera</li></a>
                     </Link>
-                    <Link to="/Tierra" id='list-container'>
+                    <Link to="/Estadistica/Tierra" id='list-container'>
                         <a><li>Tierra</li></a>
                     </Link>
                 </ul>

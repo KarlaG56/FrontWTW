@@ -28,7 +28,6 @@ function Data() {
                         <input className="place" type="text" name="email" id='email_Login' />
                     </div>
                     <br />
-
                     <div >
                         <label id="Password">Contraseña:</label><br />
                         <input className="place" type="password" name="password" id='password_Login' />
@@ -37,7 +36,6 @@ function Data() {
                     <button type='submit'  id="Login-button">Iniciar sesión</button>
                     <br />
                     <h4 id='Text-Login'>¿Todavía no tienes una cuenta? <Link id="Text-Register" to="/Registro">Regístrate</Link></h4>
-
                 </form>
             </div>
         </div>

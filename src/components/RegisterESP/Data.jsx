@@ -1,6 +1,6 @@
 function Data() {
 
-    return(
+    return (
         <div className="payment-container">
             <div className="payment-data-container">
                 <div className="payment-data-container2">
@@ -10,9 +10,9 @@ function Data() {
                         <div className='Title-Register-Payment'>
                             <h1>Register ESP32</h1>
                         </div>
-                        <label id="card-number">Clave:<br /><input type="text" id="inpt-data"/></label>
+                        <label id="card-number">Clave:<br /><input type="text" id="inpt-data" /></label>
                         <br />
-                        <label id="owner-name">Tipo:<br /><input type="text" id="inpt-data"/></label><br />
+                        <label id="owner-name">Tipo:<br /><input type="text" id="inpt-data" /></label><br />
                         <button className="AddMetodoDePago">Añadir</button>
                     </form>
                 </div>
@@ -20,12 +20,11 @@ function Data() {
             </div>
             <div className="payment-scroll-container">
                 <div className="header-scroll">
-                    <br/>
+                    <br />
                     <h1 className="Title-RegisteredPaymentMethods">Registros</h1>
                 </div>
                 <div className="content-scroll-container">
                     <div className="content-scroll-data">
-
                     </div>
                 </div>
             </div>
