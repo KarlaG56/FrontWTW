@@ -70,7 +70,6 @@ function Aside() {
                 </DialogActions>
             </Dialog>
 
-
             <a><button onClick={handleClickOpenDelete} id='btn-delete-account'>| Eliminar cuenta |</button></a>
             <Dialog open={openDelete} onClose={handleCloseDelete}>
                 <DialogTitle>Esta acción no se puede deshacer. Esto eliminará permanentemente toda su cuenta. Se eliminarán todos los espacios de trabajo privados.</DialogTitle>

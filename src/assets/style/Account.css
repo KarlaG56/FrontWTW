@@ -42,6 +42,7 @@
   position: absolute;
   background-color: #ffffff;
 }
+
 .Register-container{
   width: 50%;
   height: 100%;
@@ -59,7 +60,6 @@
   left:26%;
   background-color: #8adb1f;
   margin-bottom: 15vh;
-
 }
 
 .RegisterForm-container{
@@ -71,7 +71,6 @@
   background-color: #ffffff;
 }
 
-
 .Logo-container img{
   top: 7%;
   left: -70%;
@@ -81,16 +80,13 @@
   z-index: 1;
 }
 
-form {
-  margin-top: 20px;
-}
-
 #User {
   position: relative;
   left: -115px;
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 #name-user{
   background-color: #d6d6d6;
   border: 0;

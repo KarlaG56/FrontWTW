@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 function Footer() {
 
     return (
-    
             <div className="Footer">
                 <div className='div-section'>
                     <h3 className='title-sections'>Negocio</h3>
