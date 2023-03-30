@@ -9,7 +9,6 @@ function Header() {
                 </div>
                 <a className="div-title">Watering the World</a>
             </div>
-
         </header>
     )
 }
