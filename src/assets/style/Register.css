@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+.Register-container{
+  width: 185vh;
+  height: 97vh;
+  margin: auto;
+  justify-content: center;
+  background-color: #c6f2ff;
+}
+
+.title-container-2{
+  width: 55%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+
+.Logo-container-register{
+  width: 20vh;
+  height: 20vh;
+  margin: auto;
+}
+
+.text-container-title{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color: #7bcfbf;
+}
+
+.Register-Img-container{
+  width: 100%;
+  height: 50vh;
+  margin: auto;
+}
+
+.RegisterForm-container{
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.RegisterForm-container input{
+  width: 80%;
+  height: 5vh;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #d6d6d6;
+}
+
+.form-container-register{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+  background-color: #ffffff;
+}
+
+.title-container-register, .input-lastname-container, .input-email-container{
+  width: 100%;
+  height: 21%;
+  top: 3vh;
+}
+
+.input-password-container{
+  width: 100%;
+  height: 21%;
+  position: relative;
+  bottom: 3vh;
+}
+
+#User-Register{
+  position: relative;
+  right: 22vh;
+}
+
+#Surnames-Register{
+  position: relative;
+  right: 21.5vh;
+}
+
+#Email-Register{
+  position: relative;
+  right: 17.5vh;
+}
+
+#Password-Register{
+  position: relative;
+  right: 20.5vh;
+}
+
+.button-container-accept{
+  width: 100%;
+  height: 16%;
+  position: relative;
+  bottom: 5%;
+}
+
+#accept-condition{
+  width: 20px;
+  height: 20px;
+  font-size: 5px;
+}
+
+#Create-User-button-Register{
+  width: 20vh;
+  height: 4vh;
+  position: relative;
+  border-radius: 10px;
+  right: 6vh;
+  top: 2vh;
+  background-color: #15889b;
+  color: #ffffff;
+}
+
+#Create-button_cancel{
+  width: 20vh;
+  height: 4vh;
+  border-radius: 10px;
+  position: relative;
+  left: 6vh;
+  top: 2vh;
+  background-color: #15889b;
+  color: #ffffff;
+}

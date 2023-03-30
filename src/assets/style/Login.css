@@ -1,0 +1,100 @@
+.Login-container{
+  width: 185vh;
+  height: 97vh;
+  margin: auto;
+  justify-content: center;
+  background-color: #c6f2ff;
+}
+
+.title-container-1{
+  width: 55%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  background-image: url(/img/Cultivo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Logo-container{
+  width: 30vh;
+  height: 30vh;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+}
+
+.txt2-Login{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.LoginForm-container{
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.LoginForm{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    background-color: #ffffff;
+}
+
+.LoginForm input{
+  width: 80%;
+  height: 5vh;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #d6d6d6;
+}
+
+.User-img-container{
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+}
+
+.email-container-login, .password-container-login{
+    width: 100%;
+    height: 15%;
+}
+
+#Email{
+  position: relative;
+  right: 17vh;
+}
+
+#Password{
+  position: relative;
+  right: 20.5vh;
+}
+
+#Login-button{
+  width: 20vh;
+  height: 5vh;
+  position: relative;
+  top: 5vh;
+  background-color: #15889b;
+}
+
+.text-container-redireccion{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 5vh;
+}
