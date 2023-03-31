@@ -5,7 +5,7 @@ function Header() {
         <header className="Header-controler">
             <div className="div-container-title">
                 <div className="Logo">
-                    <img src="/img/logoWTW.png" />
+                    <img src="/img/logoWTW.svg" />
                 </div>
                 <a className="div-title">Watering the World</a>
             </div>

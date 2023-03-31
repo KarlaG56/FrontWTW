@@ -1,7 +1,48 @@
-import { Link } from "react-router-dom";
-import "../../assets/style/Login.css"
+import {useRef, useState, useContext, useEffect} from 'react'
+import { Link, useNavigate } from "react-router-dom";
+import "../../assets/style/Login.css";
+import UserContext from "../Context/UserContext"
+import ValidateContext from "../Context/ValidateContext"
+
 
 function Data() {
+
+    const navigate = useNavigate();
+    const {user, setUser} = useContext(UserContext);
+    const {validate, setValidate} = useContext(ValidateContext);
+    const form = useRef(null);
+
+    const handleSubmit = async (event) => {
+      event.preventDefault();
+  
+        const formData = new FormData(form.current);
+        try {
+            let response = await fetch("https://usersapi.wateringtheworld.click/user/validate", //http://localhost:8080/user/validate
+                {method: "POST",
+                headers:{
+                    "Accept": "application/json"//"Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    email: formData.get('email'),
+                    password: formData.get('password'),
+                })
+            })
+            let data = await response.json()   
+            window.localStorage.setItem("token", data.token)//window.localStorage.getItem("token")
+                      
+            /*console.log("soy el token")
+            console.log(data.token)*/
+            setUser(data.data); 
+            setValidate(data.success)  
+            console.log(data)   
+            console.log(user)
+            console.log(validate)
+            data.success ? navigate("/") : alert("Correo o Contraseña incorrectos")    
+        } catch (error) {
+            console.log (error)
+        }
+}
+
     return (
         <div className="Login-container">
             <div className="title-container-1">
@@ -16,13 +57,13 @@ function Data() {
             </div>
 
             <div className="LoginForm-container">
-                <form className='LoginForm'>
+                <form className='LoginForm' ref={form} onSubmit={handleSubmit}>
                     <div className="User-img-container">
                         <img src="/img/user.svg" alt="" />
                     </div><br />
                     <div className="email-container-login">
                         <label id="Email">Correo electrónico:</label><br />
-                        <input className="place" type="text" name="email" id='email_Login' placeholder="Correo electronico"/>
+                        <input className="place" type="text"  name="email" id='email_Login' placeholder="Correo electronico"/>
                     </div>
                     <br />
                     <div className="password-container-login">
@@ -41,4 +82,5 @@ function Data() {
         </div>
     );
 }
+
 export default Data;

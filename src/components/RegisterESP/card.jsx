@@ -2,8 +2,8 @@ function cardPay(props) {
     return (
         <div className="payment-card">
             <br/><br/>
-            <span>Clave: {props.card}</span><br/>
-            <span>Tipo: {props.date}</span><br />
+            <span>Clave: {props.Clave}</span><br/>
+            <span>Tipo: {props.Tipo}</span><br />
             <br/>
         </div>
     )

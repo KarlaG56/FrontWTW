@@ -1,7 +1,47 @@
-import { Link } from "react-router-dom";
 import "../../assets/style/Register.css";
+import { Link, useNavigate } from "react-router-dom";
+import { useRef } from "react";
 
 function Data() {
+
+  const form = useRef(null);
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    let nameUser = document.getElementById("name-user");
+    let lastname = document.getElementById("surnames-user");
+    let emailConfirm = document.getElementById("emailConfirm1");
+    let passwordConfirm = document.getElementById("passwordConfirm1");
+    if (
+      nameUser.value == "" ||
+      lastname.value == "" ||
+      emailConfirm.value == "" ||
+      passwordConfirm.value == ""
+    ) {
+      const formData = new FormData(form.current);
+      fetch("https://usersapi.wateringtheworld.click/user", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+          "Authorization": window.localStorage.getItem("token")
+        },
+        body: JSON.stringify({
+          fullName: formData.get("name-user"),
+          lastName: formData.get("surnames"),
+          email: formData.get("emailConfirm"),
+          password: formData.get("passwordConfirm")
+        }),
+      });
+      localStorage.getItem("token", data.token)
+      navigate("/Login");
+    } else {
+      console.log("Error")
+    }
+  };
+
   return (
     <div className="Register-container">
       <div className="title-container-2">
@@ -20,7 +60,7 @@ function Data() {
       </div>
 
       <div className="RegisterForm-container">
-        <form className="form-container-register">
+        <form className="form-container-register" ref={form} onSubmit={handleSubmit}>
           <div className="title-container-register">
             <h1 id="Title-Register">Crear una cuenta</h1>
             <label id="User-Register"><strong>Nombre:</strong></label><br />
